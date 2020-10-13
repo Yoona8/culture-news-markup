@@ -26,6 +26,11 @@ body {
 
 a {
   color: inherit;
+  transition: color var(--transition-time);
+}
+
+a:hover {
+  color: var(--accent);
 }
 
 img {

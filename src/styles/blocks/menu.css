@@ -14,9 +14,4 @@
 
 .menu a {
   text-decoration: none;
-  transition: color var(--transition-time);
-}
-
-.menu a:hover {
-  color: var(--accent);
 }
