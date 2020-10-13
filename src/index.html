@@ -11,6 +11,11 @@
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
+<svg style="display: none;">
+  <symbol id="i-mountain" viewBox="0 0 123 72">
+    <path d="M44.44 71.5H0L2.92 67 44.36 3.02a2.914 2.914 0 015-.1L65.4 28.56l3.37 5.38-1.75 2.7-4.09-6.54c-2.45-.73-5.86 8.9-8.45 8.53-3.57-.51-7.61-12.43-10.16-9.32l-8.71 10.62-9.13-3.95-21.13 32.6h40.97l-1.88 2.92zm74.62-.22H55.88L58 68.01l15.57-24.04.73-1.13 13.78-21.28a2.11 2.11 0 013.63-.07l11.65 18.61 17.42 27.83c.05.07.1.14.14.22l1.96 3.13h-3.82zm-59.29-2.12h59.29l-17.49-27.95c-1.78-.53-4.25 6.46-6.14 6.19-2.59-.37-5.53-9.02-7.38-6.77l-6.32 7.71-6.63-2.87-15.33 23.69zM75.39 0c4.6 0 8.34 3.73 8.34 8.34s-3.73 8.34-8.34 8.34c-4.6 0-8.34-3.73-8.34-8.34S70.78 0 75.39 0z"/>
+  </symbol>
+</svg>
 <header class="header container">
   <h1 class="header__title page-title">Culture news</h1>
   <nav class="header__nav">
@@ -46,9 +51,25 @@
   </nav>
 </header>
 <article class="feature">
+  <p class="feature__img">
+    <img
+      width="1440"
+      height="464"
+      src="./assets/images/underwater-hotel.jpg"
+      alt="Underwater suit"
+    >
+  </p>
   <div class="container">
+    <a
+      class="feature__link"
+      href="#"
+      aria-label="Read more about underwater hotel"
+    >
+      <svg width="30" height="18">
+        <use xlink:href="#i-mountain"></use>
+      </svg>
+    </a>
     <h2 class="feature__title">Underwater hotel</h2>
-    <img src="#" alt="Underwater suit">
     <p class="feature__lead">
       Atlantis, The Palm, Dubai
     </p>

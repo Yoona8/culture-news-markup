@@ -5,6 +5,7 @@
   --light-gray: #F7F7F7;
   --dark-gray: #575757;
   --accent: #FF7931;
+  --accent-light: #FF9B66;
   --transition-time: 0.2s;
 }
 
@@ -17,7 +18,7 @@ body {
 body {
   min-width: 1200px;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.7;
   font-family: "Montserrat", Arial, sans-serif;
   color: var(--basic-black);
   background-color: var(--basic-white);
