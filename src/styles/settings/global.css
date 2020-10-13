@@ -5,6 +5,7 @@
   --light-gray: #F7F7F7;
   --dark-gray: #575757;
   --accent: #FF7931;
+  --transition-time: 0.2s;
 }
 
 html,
@@ -17,7 +18,18 @@ body {
   min-width: 1200px;
   font-size: 14px;
   line-height: 1.2;
+  font-family: "Montserrat", Arial, sans-serif;
+  color: var(--basic-black);
   background-color: var(--basic-white);
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .container {

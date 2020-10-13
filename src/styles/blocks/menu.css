@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.menu li:not(:last-child) {
+  margin-right: 50px;
+}
+
+.menu a {
+  text-decoration: none;
+  transition: color var(--transition-time);
+}
+
+.menu a:hover {
+  color: var(--accent);
+}
