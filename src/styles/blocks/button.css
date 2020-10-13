@@ -1,0 +1,37 @@
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 10px 20px;
+  font: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--basic-white);
+  background-color: var(--accent);
+  border: 0;
+  cursor: pointer;
+  transition: background-color var(--transition-time);
+}
+
+.button:hover {
+  color: var(--basic-white);
+  background-color: var(--accent-light);
+}
+
+.button svg {
+  fill: var(--basic-white);
+}
+
+.button--arrow {
+  position: relative;
+  padding-right: 55px;
+}
+
+.button--arrow svg {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  width: 25px;
+  height: 13px;
+  margin-top: -8px;
+}
