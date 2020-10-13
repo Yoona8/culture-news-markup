@@ -1,8 +1,7 @@
 {
-  "name": "starter-npm-scripts",
+  "name": "culture-news-website",
   "version": "1.0.0",
-  "description": "- for small projects (HTML, CSS, JS)",
-  "main": "index.js",
+  "description": "Culture news",
   "scripts": {
     "start": "browser-sync start --server 'src' --no-notify --no-ui --cwd 'src' --files '*.html,styles/**/*'",
     "test": "editorconfig-checker --exclude '.git|node_modules|.idea|.DS_Store'",
@@ -17,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/Yoona8/starter-npm-scripts.git"
   },
-  "author": "",
+  "author": "Elena Valeeva",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Yoona8/starter-npm-scripts/issues"
