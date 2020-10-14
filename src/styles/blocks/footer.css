@@ -1,0 +1,32 @@
+.footer {
+  padding-top: 25px;
+  padding-bottom: 45px;
+  color: var(--basic-white);
+  background-color: var(--dark-gray);
+}
+
+.footer__title {
+  margin: 0 0 15px;
+  font-size: 32px;
+}
+
+.footer__menu-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__nav {
+  position: relative;
+  margin-bottom: 25px;
+  padding-bottom: 34px;
+  color: var(--opaque-white);
+}
+
+.footer__nav::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--opaque-white);
+}
