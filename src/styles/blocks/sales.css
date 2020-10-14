@@ -55,8 +55,9 @@
 }
 
 .sales__promo {
-  margin: 0;
+  margin: 0 0 3px;
   font-size: 25px;
+  line-height: 1.2;
   font-family: "Rozha One", Georgia, serif;
 }
 

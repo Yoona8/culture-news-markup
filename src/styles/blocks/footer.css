@@ -1,12 +1,12 @@
 .footer {
-  padding-top: 25px;
+  padding-top: 35px;
   padding-bottom: 45px;
   color: var(--basic-white);
   background-color: var(--dark-gray);
 }
 
 .footer__title {
-  margin: 0 0 15px;
+  margin: 0 0 18px;
   font-size: 32px;
 }
 
@@ -29,4 +29,10 @@
   width: 100%;
   height: 1px;
   background-color: var(--opaque-white);
+}
+
+@media (max-width: 768px) {
+  .footer__title {
+    font-size: 28px;
+  }
 }

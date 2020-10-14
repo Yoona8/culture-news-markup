@@ -6,3 +6,13 @@
 .header__title {
   margin: 0 0 28px;
 }
+
+@media (max-width: 768px) {
+  .header {
+    padding-top: 25px;
+  }
+
+  .header__title {
+    margin-bottom: 10px;
+  }
+}

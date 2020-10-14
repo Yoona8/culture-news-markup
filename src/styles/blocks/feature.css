@@ -38,7 +38,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 5px;
+  margin: 0 auto 15px;
   width: 55px;
   height: 55px;
   background-color: var(--accent);
@@ -60,6 +60,7 @@
   margin: 0 0 90px;
   font-weight: 400;
   font-size: 68px;
+  line-height: 1.2;
   text-align: center;
   text-transform: uppercase;
 }
@@ -72,4 +73,34 @@
 
 .feature__lead {
   font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .feature__title {
+    margin-bottom: 42px;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .feature {
+    min-height: auto;
+  }
+
+  .feature .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .feature__title {
+    margin-bottom: 23px;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .feature__title {
+    margin-bottom: 15px;
+    font-size: 36px;
+  }
 }
