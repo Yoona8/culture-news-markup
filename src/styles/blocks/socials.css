@@ -1,0 +1,29 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.socials li:not(:last-child) {
+  margin-right: 14px;
+}
+
+.socials__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 47px;
+  height: 47px;
+  background-color: var(--basic-white);
+  transition: background-color var(--transition-time);
+}
+
+.socials__link:hover {
+  background-color: var(--accent-light);
+}
+
+.socials__link svg {
+  fill: var(--dark-gray);
+}
